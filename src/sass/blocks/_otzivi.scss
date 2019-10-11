@@ -1,0 +1,35 @@
+.otzivi {
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		width: 885px;
+		margin-top: 45px;
+		img {
+			width: 169px;
+			height: 169px;
+		}
+	}	
+	&__text {
+		width: 650px;
+		position: relative;
+		&-name {
+			position: absolute;
+			top: -6px;
+			color: #0d0d0d;
+			font-size: 18px;
+			font-weight: 700;
+		}
+		&-result {
+			margin-top: 25px;
+			color: #646464;
+			font-size: 14px;
+			font-weight: 300;
+		}
+		&-descr {
+			margin-top: 18px;
+			color: #0d0d0d;
+			font-size: 16px;
+			font-weight: 300;
+		}
+	}
+}
